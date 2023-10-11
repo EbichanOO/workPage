@@ -1,12 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
+import topImage from './my-face.jpg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={topImage} className='logo' alt='logo' />
+        <div content='hoge'/>
+      </header>
+      <body>
+      <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -18,7 +23,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </body>
     </div>
   );
 }
